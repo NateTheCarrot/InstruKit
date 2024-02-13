@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../../default.css">
+        <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="StudentRandomizer.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    </head>
+    <body>
+        <div id="center">
+                <p>Comma-separated list of students (or a CSV file):</p>
+                <input type="text" id="students" placeholder="Example: John, Allison, Cameron, Denise">
+                <input type="file" name="File Upload" id="csvFile" accept=".csv"/>
+                <div id="verticalSpace">
+                </div>
+                <button onclick="bclick();">Randomize</button>
+                <div id="verticalSpace">
+                </div>
+                <h3><u>Random Student:</u></h3>
+                <h7 id="result"></h7 id=result>
+        </div>
+    </body>
+</html>
