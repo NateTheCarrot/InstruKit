@@ -37,3 +37,82 @@ input {
 #marginBottomSmall {
     margin-bottom: 5px;
 }
+table {
+    border-collapse: collapse;
+    width: 80%;
+    border: 3px solid #000;
+}
+  
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 5px solid #50ff6d;
+    font-size: 16px;
+}
+  
+td {
+    background-color: #333;
+    color: #fff;
+    position: relative;
+}
+  
+tr:first-child td {
+    background-color: #000;
+    color: #50ff6d;
+}
+  
+tr:hover {
+    background-color: #666;
+}
+
+.cellButton {
+    width: 100%;
+    height: 100%;
+    background-color: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+    padding: 0;
+    border-radius: 0px;
+    font-size: inherit;
+}
+.cellButton:hover {
+    background-color:#666
+}
+.teamBox {
+    border: 3px solid black;
+    padding: 10px;
+    margin: 5px;
+}
+
+#teamsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+#questionPrompt {
+    border: 4px solid black;
+    text-align: center;
+    width: 75%;
+    background-color: #333;
+    color: white;
+    font-size: 3em;
+    padding: 80px;
+    max-height: 350px;
+    word-wrap: break-word;
+    margin: auto;
+    margin-top: 30px;
+    overflow: auto;
+
+}
+
+.redButton {
+    margin-top: 30px;
+    background-color: #ff4c4c;
+}
+.redButton:hover {
+    background-color: #ba2f2f;
+}
